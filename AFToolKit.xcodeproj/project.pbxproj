@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E711CBC7187B6B600034FA1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E711CBC6187B6B600034FA1B /* Foundation.framework */; };
+		E711CBCC187B6B600034FA1B /* AFToolKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E711CBCB187B6B600034FA1B /* AFToolKit.h */; };
+		E711CBD5187B6B600034FA1B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E711CBD4187B6B600034FA1B /* XCTest.framework */; };
+		E711CBD6187B6B600034FA1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E711CBC6187B6B600034FA1B /* Foundation.framework */; };
+		E711CBD8187B6B600034FA1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E711CBD7187B6B600034FA1B /* UIKit.framework */; };
+		E711CBDB187B6B600034FA1B /* libAFToolKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E711CBC3187B6B600034FA1B /* libAFToolKit.a */; };
+		E711CBE1187B6B600034FA1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E711CBDF187B6B600034FA1B /* InfoPlist.strings */; };
+		E711CBE3187B6B600034FA1B /* AFToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E711CBE2187B6B600034FA1B /* AFToolKitTests.m */; };
+		E74A4F58187E1D8D000C2FE4 /* AFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A4F57187E1D8D000C2FE4 /* AFToast.m */; };
+		E74A4F5B187E1D96000C2FE4 /* AFActivityToast.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A4F5A187E1D96000C2FE4 /* AFActivityToast.m */; };
+		E74A4F63187E2690000C2FE4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74A4F62187E2690000C2FE4 /* Cocoa.framework */; };
+		E74A4F6D187E2690000C2FE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E74A4F6B187E2690000C2FE4 /* InfoPlist.strings */; };
+		E74A4F74187E2737000C2FE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74A4F73187E2737000C2FE4 /* Images.xcassets */; };
+		E74A4FDB187E3690000C2FE4 /* NSObject+AFBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A4FDA187E3690000C2FE4 /* NSObject+AFBlock.m */; };
+		E74A4FDC187E376F000C2FE4 /* AFSingleton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD307187D2CDF00DA8234 /* AFSingleton.h */; };
+		E74A4FDD187E376F000C2FE4 /* AFConstants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD32F187D442900DA8234 /* AFConstants.h */; };
+		E74A4FDE187E376F000C2FE4 /* UIKitConstants+AFEstimates.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD379187D552A00DA8234 /* UIKitConstants+AFEstimates.h */; };
+		E74A4FDF187E376F000C2FE4 /* AFImagePicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD32C187D440600DA8234 /* AFImagePicker.h */; };
+		E74A4FE0187E376F000C2FE4 /* AFUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD329187D43FB00DA8234 /* AFUtilities.h */; };
+		E74A4FE1187E3789000C2FE4 /* AFViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2DB187D1BCE00DA8234 /* AFViewController.h */; };
+		E74A4FE2187E3789000C2FE4 /* AFSplitViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2E6187D1BEB00DA8234 /* AFSplitViewController.h */; };
+		E74A4FE3187E3789000C2FE4 /* AFImageViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD309187D2E2700DA8234 /* AFImageViewController.h */; };
+		E74A4FE4187E3789000C2FE4 /* AFTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2DE187D1BD800DA8234 /* AFTableViewController.h */; };
+		E74A4FE5187E3789000C2FE4 /* UITableViewCell+AFUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2F0187D1C3500DA8234 /* UITableViewCell+AFUtilities.h */; };
+		E74A4FE6187E3789000C2FE4 /* AFTableViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD31D187D3F3400DA8234 /* AFTableViewCell.h */; };
+		E74A4FE7187E3789000C2FE4 /* AFImageCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD317187D301800DA8234 /* AFImageCell.h */; };
+		E74A4FE8187E3789000C2FE4 /* AFTextFieldCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD31A187D302000DA8234 /* AFTextFieldCell.h */; };
+		E74A4FE9187E3789000C2FE4 /* AFTextViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD393187D5ADE00DA8234 /* AFTextViewCell.h */; };
+		E74A4FEA187E3789000C2FE4 /* AFAdaptedTableViewDatasource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2CF187D0C1100DA8234 /* AFAdaptedTableViewDatasource.h */; };
+		E74A4FEB187E3789000C2FE4 /* AFAdaptedTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2C0187CDE5800DA8234 /* AFAdaptedTableViewController.h */; };
+		E74A4FEC187E3789000C2FE4 /* AFTableRowAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2C6187CDE6C00DA8234 /* AFTableRowAdapter.h */; };
+		E74A4FED187E3789000C2FE4 /* AFActivityIndicatorView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD35A187D46D100DA8234 /* AFActivityIndicatorView.h */; };
+		E74A4FEE187E3789000C2FE4 /* AFSearchField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD366187D510300DA8234 /* AFSearchField.h */; };
+		E74A4FEF187E3789000C2FE4 /* AFScaledImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD369187D528D00DA8234 /* AFScaledImageView.h */; };
+		E74A4FF0187E3789000C2FE4 /* AFTextView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD36C187D52A000DA8234 /* AFTextView.h */; };
+		E74A4FF1187E3789000C2FE4 /* AFToast.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74A4F56187E1D8D000C2FE4 /* AFToast.h */; };
+		E74A4FF2187E3789000C2FE4 /* AFActivityToast.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74A4F59187E1D96000C2FE4 /* AFActivityToast.h */; };
+		E74A4FF3187E3789000C2FE4 /* UIImage+AFSizing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD373187D545D00DA8234 /* UIImage+AFSizing.h */; };
+		E74A4FF4187E3789000C2FE4 /* UIView+AFDrawing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD376187D54A700DA8234 /* UIView+AFDrawing.h */; };
+		E74A4FF5187E3789000C2FE4 /* UIViewController+AFActionSheet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD37A187D556600DA8234 /* UIViewController+AFActionSheet.h */; };
+		E74A4FF6187E3789000C2FE4 /* UIViewController+AFAlertView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD37D187D55C100DA8234 /* UIViewController+AFAlertView.h */; };
+		E74A4FF7187E3789000C2FE4 /* UIViewController+AFUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD380187D55FD00DA8234 /* UIViewController+AFUtilities.h */; };
+		E74A4FF8187E3789000C2FE4 /* UIViewController+AFNavigation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD396187D64A600DA8234 /* UIViewController+AFNavigation.h */; };
+		E74A4FF9187E3789000C2FE4 /* NSArray+AFUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD386187D565A00DA8234 /* NSArray+AFUtilities.h */; };
+		E74A4FFA187E3789000C2FE4 /* NSArray+AFNesting.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD38C187D57A200DA8234 /* NSArray+AFNesting.h */; };
+		E74A4FFB187E3789000C2FE4 /* NSMutableArray+AFNesting.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD38F187D589000DA8234 /* NSMutableArray+AFNesting.h */; };
+		E74A4FFC187E3789000C2FE4 /* NSObject+AFBlock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74A4FD9187E3690000C2FE4 /* NSObject+AFBlock.h */; };
+		E74A5069187E3FAA000C2FE4 /* UIImage+AFToolKitResources.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A5068187E3FAA000C2FE4 /* UIImage+AFToolKitResources.m */; };
+		E74A506C187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A506B187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.m */; };
+		E74A5070187E436E000C2FE4 /* UIImage+AFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A506F187E436E000C2FE4 /* UIImage+AFUtilities.m */; };
+		E74BD2C4187CDE5800DA8234 /* AFAdaptedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2C1187CDE5800DA8234 /* AFAdaptedTableViewController.m */; };
+		E74BD2CA187CDE6C00DA8234 /* AFTableRowAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2C7187CDE6C00DA8234 /* AFTableRowAdapter.m */; };
+		E74BD2DD187D1BCE00DA8234 /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2DC187D1BCE00DA8234 /* AFViewController.m */; };
+		E74BD2E0187D1BD800DA8234 /* AFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2DF187D1BD800DA8234 /* AFTableViewController.m */; };
+		E74BD2EB187D1BEB00DA8234 /* AFSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2E7187D1BEB00DA8234 /* AFSplitViewController.m */; };
+		E74BD2F2187D1C3500DA8234 /* UITableViewCell+AFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2F1187D1C3500DA8234 /* UITableViewCell+AFUtilities.m */; };
+		E74BD30B187D2E2700DA8234 /* AFImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD30A187D2E2700DA8234 /* AFImageViewController.m */; };
+		E74BD319187D301800DA8234 /* AFImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD318187D301800DA8234 /* AFImageCell.m */; };
+		E74BD31C187D302000DA8234 /* AFTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD31B187D302000DA8234 /* AFTextFieldCell.m */; };
+		E74BD31F187D3F3400DA8234 /* AFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD31E187D3F3400DA8234 /* AFTableViewCell.m */; };
+		E74BD32B187D43FB00DA8234 /* AFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD32A187D43FB00DA8234 /* AFUtilities.m */; };
+		E74BD32E187D440600DA8234 /* AFImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD32D187D440600DA8234 /* AFImagePicker.m */; };
+		E74BD35C187D46D100DA8234 /* AFActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD35B187D46D100DA8234 /* AFActivityIndicatorView.m */; };
+		E74BD368187D510300DA8234 /* AFSearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD367187D510300DA8234 /* AFSearchField.m */; };
+		E74BD36B187D528D00DA8234 /* AFScaledImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD36A187D528D00DA8234 /* AFScaledImageView.m */; };
+		E74BD36E187D52A000DA8234 /* AFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD36D187D52A000DA8234 /* AFTextView.m */; };
+		E74BD375187D545D00DA8234 /* UIImage+AFSizing.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD374187D545D00DA8234 /* UIImage+AFSizing.m */; };
+		E74BD378187D54A800DA8234 /* UIView+AFDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD377187D54A800DA8234 /* UIView+AFDrawing.m */; };
+		E74BD37C187D556600DA8234 /* UIViewController+AFActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD37B187D556600DA8234 /* UIViewController+AFActionSheet.m */; };
+		E74BD37F187D55C100DA8234 /* UIViewController+AFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD37E187D55C100DA8234 /* UIViewController+AFAlertView.m */; };
+		E74BD382187D55FD00DA8234 /* UIViewController+AFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD381187D55FD00DA8234 /* UIViewController+AFUtilities.m */; };
+		E74BD388187D565A00DA8234 /* NSArray+AFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD387187D565A00DA8234 /* NSArray+AFUtilities.m */; };
+		E74BD38E187D57A200DA8234 /* NSArray+AFNesting.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD38D187D57A200DA8234 /* NSArray+AFNesting.m */; };
+		E74BD391187D589000DA8234 /* NSMutableArray+AFNesting.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD390187D589000DA8234 /* NSMutableArray+AFNesting.m */; };
+		E74BD395187D5ADE00DA8234 /* AFTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD394187D5ADE00DA8234 /* AFTextViewCell.m */; };
+		E74BD398187D64A600DA8234 /* UIViewController+AFNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD397187D64A600DA8234 /* UIViewController+AFNavigation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E711CBD9187B6B600034FA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E711CBBB187B6B600034FA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E711CBC2187B6B600034FA1B;
+			remoteInfo = AFToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E711CBC1187B6B600034FA1B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E74A4FE1187E3789000C2FE4 /* AFViewController.h in CopyFiles */,
+				E74A4FE2187E3789000C2FE4 /* AFSplitViewController.h in CopyFiles */,
+				E74A4FE3187E3789000C2FE4 /* AFImageViewController.h in CopyFiles */,
+				E74A4FE4187E3789000C2FE4 /* AFTableViewController.h in CopyFiles */,
+				E74A4FE5187E3789000C2FE4 /* UITableViewCell+AFUtilities.h in CopyFiles */,
+				E74A4FE6187E3789000C2FE4 /* AFTableViewCell.h in CopyFiles */,
+				E74A4FE7187E3789000C2FE4 /* AFImageCell.h in CopyFiles */,
+				E74A4FE8187E3789000C2FE4 /* AFTextFieldCell.h in CopyFiles */,
+				E74A4FE9187E3789000C2FE4 /* AFTextViewCell.h in CopyFiles */,
+				E74A4FEA187E3789000C2FE4 /* AFAdaptedTableViewDatasource.h in CopyFiles */,
+				E74A4FEB187E3789000C2FE4 /* AFAdaptedTableViewController.h in CopyFiles */,
+				E74A4FEC187E3789000C2FE4 /* AFTableRowAdapter.h in CopyFiles */,
+				E74A4FED187E3789000C2FE4 /* AFActivityIndicatorView.h in CopyFiles */,
+				E74A4FEE187E3789000C2FE4 /* AFSearchField.h in CopyFiles */,
+				E74A4FEF187E3789000C2FE4 /* AFScaledImageView.h in CopyFiles */,
+				E74A4FF0187E3789000C2FE4 /* AFTextView.h in CopyFiles */,
+				E74A4FF1187E3789000C2FE4 /* AFToast.h in CopyFiles */,
+				E74A4FF2187E3789000C2FE4 /* AFActivityToast.h in CopyFiles */,
+				E74A4FF3187E3789000C2FE4 /* UIImage+AFSizing.h in CopyFiles */,
+				E74A4FF4187E3789000C2FE4 /* UIView+AFDrawing.h in CopyFiles */,
+				E74A4FF5187E3789000C2FE4 /* UIViewController+AFActionSheet.h in CopyFiles */,
+				E74A4FF6187E3789000C2FE4 /* UIViewController+AFAlertView.h in CopyFiles */,
+				E74A4FF7187E3789000C2FE4 /* UIViewController+AFUtilities.h in CopyFiles */,
+				E74A4FF8187E3789000C2FE4 /* UIViewController+AFNavigation.h in CopyFiles */,
+				E74A4FF9187E3789000C2FE4 /* NSArray+AFUtilities.h in CopyFiles */,
+				E74A4FFA187E3789000C2FE4 /* NSArray+AFNesting.h in CopyFiles */,
+				E74A4FFB187E3789000C2FE4 /* NSMutableArray+AFNesting.h in CopyFiles */,
+				E74A4FFC187E3789000C2FE4 /* NSObject+AFBlock.h in CopyFiles */,
+				E74A4FDC187E376F000C2FE4 /* AFSingleton.h in CopyFiles */,
+				E74A4FDD187E376F000C2FE4 /* AFConstants.h in CopyFiles */,
+				E74A4FDE187E376F000C2FE4 /* UIKitConstants+AFEstimates.h in CopyFiles */,
+				E74A4FDF187E376F000C2FE4 /* AFImagePicker.h in CopyFiles */,
+				E74A4FE0187E376F000C2FE4 /* AFUtilities.h in CopyFiles */,
+				E711CBCC187B6B600034FA1B /* AFToolKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E711CBC3187B6B600034FA1B /* libAFToolKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFToolKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E711CBC6187B6B600034FA1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E711CBCA187B6B600034FA1B /* AFToolKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFToolKit-Prefix.pch"; sourceTree = "<group>"; };
+		E711CBCB187B6B600034FA1B /* AFToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFToolKit.h; sourceTree = "<group>"; };
+		E711CBD3187B6B600034FA1B /* AFToolKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFToolKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E711CBD4187B6B600034FA1B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E711CBD7187B6B600034FA1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E711CBDE187B6B600034FA1B /* AFToolKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFToolKitTests-Info.plist"; sourceTree = "<group>"; };
+		E711CBE0187B6B600034FA1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E711CBE2187B6B600034FA1B /* AFToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFToolKitTests.m; sourceTree = "<group>"; };
+		E74A4F56187E1D8D000C2FE4 /* AFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFToast.h; sourceTree = "<group>"; };
+		E74A4F57187E1D8D000C2FE4 /* AFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFToast.m; sourceTree = "<group>"; };
+		E74A4F59187E1D96000C2FE4 /* AFActivityToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFActivityToast.h; sourceTree = "<group>"; };
+		E74A4F5A187E1D96000C2FE4 /* AFActivityToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFActivityToast.m; sourceTree = "<group>"; };
+		E74A4F61187E2690000C2FE4 /* AFToolKitResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFToolKitResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74A4F62187E2690000C2FE4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		E74A4F65187E2690000C2FE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E74A4F66187E2690000C2FE4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E74A4F67187E2690000C2FE4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E74A4F6A187E2690000C2FE4 /* AFToolKitResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFToolKitResources-Info.plist"; sourceTree = "<group>"; };
+		E74A4F6C187E2690000C2FE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E74A4F6E187E2690000C2FE4 /* AFToolKitResources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFToolKitResources-Prefix.pch"; sourceTree = "<group>"; };
+		E74A4F73187E2737000C2FE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E74A4FD9187E3690000C2FE4 /* NSObject+AFBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AFBlock.h"; sourceTree = "<group>"; };
+		E74A4FDA187E3690000C2FE4 /* NSObject+AFBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AFBlock.m"; sourceTree = "<group>"; };
+		E74A5067187E3FAA000C2FE4 /* UIImage+AFToolKitResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFToolKitResources.h"; sourceTree = "<group>"; };
+		E74A5068187E3FAA000C2FE4 /* UIImage+AFToolKitResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AFToolKitResources.m"; sourceTree = "<group>"; };
+		E74A506A187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+AFToolKitResources.h"; sourceTree = "<group>"; };
+		E74A506B187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+AFToolKitResources.m"; sourceTree = "<group>"; };
+		E74A506D187E423E000C2FE4 /* AFToolKitResources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFToolKitResources.h; sourceTree = "<group>"; };
+		E74A506E187E436E000C2FE4 /* UIImage+AFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFUtilities.h"; sourceTree = "<group>"; };
+		E74A506F187E436E000C2FE4 /* UIImage+AFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AFUtilities.m"; sourceTree = "<group>"; };
+		E74BD2C0187CDE5800DA8234 /* AFAdaptedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAdaptedTableViewController.h; sourceTree = "<group>"; };
+		E74BD2C1187CDE5800DA8234 /* AFAdaptedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAdaptedTableViewController.m; sourceTree = "<group>"; };
+		E74BD2C6187CDE6C00DA8234 /* AFTableRowAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTableRowAdapter.h; sourceTree = "<group>"; };
+		E74BD2C7187CDE6C00DA8234 /* AFTableRowAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTableRowAdapter.m; sourceTree = "<group>"; };
+		E74BD2CF187D0C1100DA8234 /* AFAdaptedTableViewDatasource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAdaptedTableViewDatasource.h; sourceTree = "<group>"; };
+		E74BD2DB187D1BCE00DA8234 /* AFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFViewController.h; sourceTree = "<group>"; };
+		E74BD2DC187D1BCE00DA8234 /* AFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFViewController.m; sourceTree = "<group>"; };
+		E74BD2DE187D1BD800DA8234 /* AFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTableViewController.h; sourceTree = "<group>"; };
+		E74BD2DF187D1BD800DA8234 /* AFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTableViewController.m; sourceTree = "<group>"; };
+		E74BD2E6187D1BEB00DA8234 /* AFSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSplitViewController.h; sourceTree = "<group>"; };
+		E74BD2E7187D1BEB00DA8234 /* AFSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSplitViewController.m; sourceTree = "<group>"; };
+		E74BD2F0187D1C3500DA8234 /* UITableViewCell+AFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+AFUtilities.h"; sourceTree = "<group>"; };
+		E74BD2F1187D1C3500DA8234 /* UITableViewCell+AFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+AFUtilities.m"; sourceTree = "<group>"; };
+		E74BD307187D2CDF00DA8234 /* AFSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSingleton.h; sourceTree = "<group>"; };
+		E74BD309187D2E2700DA8234 /* AFImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageViewController.h; sourceTree = "<group>"; };
+		E74BD30A187D2E2700DA8234 /* AFImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageViewController.m; sourceTree = "<group>"; };
+		E74BD317187D301800DA8234 /* AFImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageCell.h; sourceTree = "<group>"; };
+		E74BD318187D301800DA8234 /* AFImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageCell.m; sourceTree = "<group>"; };
+		E74BD31A187D302000DA8234 /* AFTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTextFieldCell.h; sourceTree = "<group>"; };
+		E74BD31B187D302000DA8234 /* AFTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTextFieldCell.m; sourceTree = "<group>"; };
+		E74BD31D187D3F3400DA8234 /* AFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTableViewCell.h; sourceTree = "<group>"; };
+		E74BD31E187D3F3400DA8234 /* AFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTableViewCell.m; sourceTree = "<group>"; };
+		E74BD329187D43FB00DA8234 /* AFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUtilities.h; sourceTree = "<group>"; };
+		E74BD32A187D43FB00DA8234 /* AFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUtilities.m; sourceTree = "<group>"; };
+		E74BD32C187D440600DA8234 /* AFImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImagePicker.h; sourceTree = "<group>"; };
+		E74BD32D187D440600DA8234 /* AFImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImagePicker.m; sourceTree = "<group>"; };
+		E74BD32F187D442900DA8234 /* AFConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFConstants.h; sourceTree = "<group>"; };
+		E74BD35A187D46D100DA8234 /* AFActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFActivityIndicatorView.h; sourceTree = "<group>"; };
+		E74BD35B187D46D100DA8234 /* AFActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFActivityIndicatorView.m; sourceTree = "<group>"; };
+		E74BD366187D510300DA8234 /* AFSearchField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSearchField.h; sourceTree = "<group>"; };
+		E74BD367187D510300DA8234 /* AFSearchField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSearchField.m; sourceTree = "<group>"; };
+		E74BD369187D528D00DA8234 /* AFScaledImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFScaledImageView.h; sourceTree = "<group>"; };
+		E74BD36A187D528D00DA8234 /* AFScaledImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFScaledImageView.m; sourceTree = "<group>"; };
+		E74BD36C187D52A000DA8234 /* AFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTextView.h; sourceTree = "<group>"; };
+		E74BD36D187D52A000DA8234 /* AFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTextView.m; sourceTree = "<group>"; };
+		E74BD373187D545D00DA8234 /* UIImage+AFSizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFSizing.h"; sourceTree = "<group>"; };
+		E74BD374187D545D00DA8234 /* UIImage+AFSizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AFSizing.m"; sourceTree = "<group>"; };
+		E74BD376187D54A700DA8234 /* UIView+AFDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AFDrawing.h"; sourceTree = "<group>"; };
+		E74BD377187D54A800DA8234 /* UIView+AFDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AFDrawing.m"; sourceTree = "<group>"; };
+		E74BD379187D552A00DA8234 /* UIKitConstants+AFEstimates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKitConstants+AFEstimates.h"; sourceTree = "<group>"; };
+		E74BD37A187D556600DA8234 /* UIViewController+AFActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AFActionSheet.h"; sourceTree = "<group>"; };
+		E74BD37B187D556600DA8234 /* UIViewController+AFActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AFActionSheet.m"; sourceTree = "<group>"; };
+		E74BD37D187D55C100DA8234 /* UIViewController+AFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AFAlertView.h"; sourceTree = "<group>"; };
+		E74BD37E187D55C100DA8234 /* UIViewController+AFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AFAlertView.m"; sourceTree = "<group>"; };
+		E74BD380187D55FD00DA8234 /* UIViewController+AFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AFUtilities.h"; sourceTree = "<group>"; };
+		E74BD381187D55FD00DA8234 /* UIViewController+AFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AFUtilities.m"; sourceTree = "<group>"; };
+		E74BD386187D565A00DA8234 /* NSArray+AFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AFUtilities.h"; sourceTree = "<group>"; };
+		E74BD387187D565A00DA8234 /* NSArray+AFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AFUtilities.m"; sourceTree = "<group>"; };
+		E74BD38C187D57A200DA8234 /* NSArray+AFNesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AFNesting.h"; sourceTree = "<group>"; };
+		E74BD38D187D57A200DA8234 /* NSArray+AFNesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AFNesting.m"; sourceTree = "<group>"; };
+		E74BD38F187D589000DA8234 /* NSMutableArray+AFNesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AFNesting.h"; sourceTree = "<group>"; };
+		E74BD390187D589000DA8234 /* NSMutableArray+AFNesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AFNesting.m"; sourceTree = "<group>"; };
+		E74BD393187D5ADE00DA8234 /* AFTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTextViewCell.h; sourceTree = "<group>"; };
+		E74BD394187D5ADE00DA8234 /* AFTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTextViewCell.m; sourceTree = "<group>"; };
+		E74BD396187D64A600DA8234 /* UIViewController+AFNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AFNavigation.h"; sourceTree = "<group>"; };
+		E74BD397187D64A600DA8234 /* UIViewController+AFNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AFNavigation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E711CBC0187B6B600034FA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E711CBC7187B6B600034FA1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E711CBD0187B6B600034FA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E711CBD5187B6B600034FA1B /* XCTest.framework in Frameworks */,
+				E711CBDB187B6B600034FA1B /* libAFToolKit.a in Frameworks */,
+				E711CBD8187B6B600034FA1B /* UIKit.framework in Frameworks */,
+				E711CBD6187B6B600034FA1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74A4F5E187E2690000C2FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74A4F63187E2690000C2FE4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E711CBBA187B6B600034FA1B = {
+			isa = PBXGroup;
+			children = (
+				E711CBC8187B6B600034FA1B /* AFToolKit */,
+				E711CBDC187B6B600034FA1B /* AFToolKitTests */,
+				E74A4F68187E2690000C2FE4 /* AFToolKitResources */,
+				E711CBC5187B6B600034FA1B /* Frameworks */,
+				E711CBC4187B6B600034FA1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E711CBC4187B6B600034FA1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E711CBC3187B6B600034FA1B /* libAFToolKit.a */,
+				E711CBD3187B6B600034FA1B /* AFToolKitTests.xctest */,
+				E74A4F61187E2690000C2FE4 /* AFToolKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E711CBC5187B6B600034FA1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E711CBC6187B6B600034FA1B /* Foundation.framework */,
+				E711CBD4187B6B600034FA1B /* XCTest.framework */,
+				E711CBD7187B6B600034FA1B /* UIKit.framework */,
+				E74A4F62187E2690000C2FE4 /* Cocoa.framework */,
+				E74A4F64187E2690000C2FE4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E711CBC8187B6B600034FA1B /* AFToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				E711CBCB187B6B600034FA1B /* AFToolKit.h */,
+				E74A5071187E438F000C2FE4 /* Resources */,
+				E74BD330187D443F00DA8234 /* Definitions */,
+				E74BD308187D2CE500DA8234 /* Miscelaneous */,
+				E74BD2F4187D1CE500DA8234 /* Basic View Controllers */,
+				E74BD2F3187D1CDC00DA8234 /* Table Views */,
+				E74BD303187D2BFB00DA8234 /* Custom Views */,
+				E74BD321187D400000DA8234 /* UIKit Categories */,
+				E74BD302187D212500DA8234 /* Foundation Categories */,
+				E711CBC9187B6B600034FA1B /* Supporting Files */,
+			);
+			path = AFToolKit;
+			sourceTree = "<group>";
+		};
+		E711CBC9187B6B600034FA1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E711CBCA187B6B600034FA1B /* AFToolKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E711CBDC187B6B600034FA1B /* AFToolKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E711CBE2187B6B600034FA1B /* AFToolKitTests.m */,
+				E711CBDD187B6B600034FA1B /* Supporting Files */,
+			);
+			path = AFToolKitTests;
+			sourceTree = "<group>";
+		};
+		E711CBDD187B6B600034FA1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E711CBDE187B6B600034FA1B /* AFToolKitTests-Info.plist */,
+				E711CBDF187B6B600034FA1B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E74A4F64187E2690000C2FE4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E74A4F65187E2690000C2FE4 /* Foundation.framework */,
+				E74A4F66187E2690000C2FE4 /* CoreData.framework */,
+				E74A4F67187E2690000C2FE4 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E74A4F68187E2690000C2FE4 /* AFToolKitResources */ = {
+			isa = PBXGroup;
+			children = (
+				E74A4F73187E2737000C2FE4 /* Images.xcassets */,
+				E74A4F69187E2690000C2FE4 /* Supporting Files */,
+			);
+			path = AFToolKitResources;
+			sourceTree = "<group>";
+		};
+		E74A4F69187E2690000C2FE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E74A4F6A187E2690000C2FE4 /* AFToolKitResources-Info.plist */,
+				E74A4F6B187E2690000C2FE4 /* InfoPlist.strings */,
+				E74A4F6E187E2690000C2FE4 /* AFToolKitResources-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E74A5071187E438F000C2FE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E74A506D187E423E000C2FE4 /* AFToolKitResources.h */,
+				E74A506A187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.h */,
+				E74A506B187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.m */,
+				E74A5067187E3FAA000C2FE4 /* UIImage+AFToolKitResources.h */,
+				E74A5068187E3FAA000C2FE4 /* UIImage+AFToolKitResources.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E74BD2D1187D1AB300DA8234 /* Adapted Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				E74BD2CF187D0C1100DA8234 /* AFAdaptedTableViewDatasource.h */,
+				E74BD2C0187CDE5800DA8234 /* AFAdaptedTableViewController.h */,
+				E74BD2C1187CDE5800DA8234 /* AFAdaptedTableViewController.m */,
+				E74BD2C6187CDE6C00DA8234 /* AFTableRowAdapter.h */,
+				E74BD2C7187CDE6C00DA8234 /* AFTableRowAdapter.m */,
+			);
+			name = "Adapted Table Views";
+			sourceTree = "<group>";
+		};
+		E74BD2F3187D1CDC00DA8234 /* Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				E74BD2DE187D1BD800DA8234 /* AFTableViewController.h */,
+				E74BD2DF187D1BD800DA8234 /* AFTableViewController.m */,
+				E74BD2F0187D1C3500DA8234 /* UITableViewCell+AFUtilities.h */,
+				E74BD2F1187D1C3500DA8234 /* UITableViewCell+AFUtilities.m */,
+				E74BD320187D3F3C00DA8234 /* Table View Cells */,
+				E74BD2D1187D1AB300DA8234 /* Adapted Table Views */,
+			);
+			name = "Table Views";
+			sourceTree = "<group>";
+		};
+		E74BD2F4187D1CE500DA8234 /* Basic View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E74BD2DB187D1BCE00DA8234 /* AFViewController.h */,
+				E74BD2DC187D1BCE00DA8234 /* AFViewController.m */,
+				E74BD2E6187D1BEB00DA8234 /* AFSplitViewController.h */,
+				E74BD2E7187D1BEB00DA8234 /* AFSplitViewController.m */,
+				E74BD309187D2E2700DA8234 /* AFImageViewController.h */,
+				E74BD30A187D2E2700DA8234 /* AFImageViewController.m */,
+			);
+			name = "Basic View Controllers";
+			sourceTree = "<group>";
+		};
+		E74BD302187D212500DA8234 /* Foundation Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E74BD386187D565A00DA8234 /* NSArray+AFUtilities.h */,
+				E74BD387187D565A00DA8234 /* NSArray+AFUtilities.m */,
+				E74BD38C187D57A200DA8234 /* NSArray+AFNesting.h */,
+				E74BD38D187D57A200DA8234 /* NSArray+AFNesting.m */,
+				E74BD38F187D589000DA8234 /* NSMutableArray+AFNesting.h */,
+				E74BD390187D589000DA8234 /* NSMutableArray+AFNesting.m */,
+				E74A4FD9187E3690000C2FE4 /* NSObject+AFBlock.h */,
+				E74A4FDA187E3690000C2FE4 /* NSObject+AFBlock.m */,
+			);
+			name = "Foundation Categories";
+			sourceTree = "<group>";
+		};
+		E74BD303187D2BFB00DA8234 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				E74BD35A187D46D100DA8234 /* AFActivityIndicatorView.h */,
+				E74BD35B187D46D100DA8234 /* AFActivityIndicatorView.m */,
+				E74BD366187D510300DA8234 /* AFSearchField.h */,
+				E74BD367187D510300DA8234 /* AFSearchField.m */,
+				E74BD369187D528D00DA8234 /* AFScaledImageView.h */,
+				E74BD36A187D528D00DA8234 /* AFScaledImageView.m */,
+				E74BD36C187D52A000DA8234 /* AFTextView.h */,
+				E74BD36D187D52A000DA8234 /* AFTextView.m */,
+				E74BD341187D452F00DA8234 /* Toasts */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		E74BD308187D2CE500DA8234 /* Miscelaneous */ = {
+			isa = PBXGroup;
+			children = (
+				E74BD32C187D440600DA8234 /* AFImagePicker.h */,
+				E74BD32D187D440600DA8234 /* AFImagePicker.m */,
+				E74BD329187D43FB00DA8234 /* AFUtilities.h */,
+				E74BD32A187D43FB00DA8234 /* AFUtilities.m */,
+			);
+			name = Miscelaneous;
+			sourceTree = "<group>";
+		};
+		E74BD320187D3F3C00DA8234 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E74BD31D187D3F3400DA8234 /* AFTableViewCell.h */,
+				E74BD31E187D3F3400DA8234 /* AFTableViewCell.m */,
+				E74BD317187D301800DA8234 /* AFImageCell.h */,
+				E74BD318187D301800DA8234 /* AFImageCell.m */,
+				E74BD31A187D302000DA8234 /* AFTextFieldCell.h */,
+				E74BD31B187D302000DA8234 /* AFTextFieldCell.m */,
+				E74BD393187D5ADE00DA8234 /* AFTextViewCell.h */,
+				E74BD394187D5ADE00DA8234 /* AFTextViewCell.m */,
+			);
+			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		E74BD321187D400000DA8234 /* UIKit Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E74BD373187D545D00DA8234 /* UIImage+AFSizing.h */,
+				E74BD374187D545D00DA8234 /* UIImage+AFSizing.m */,
+				E74A506E187E436E000C2FE4 /* UIImage+AFUtilities.h */,
+				E74A506F187E436E000C2FE4 /* UIImage+AFUtilities.m */,
+				E74BD376187D54A700DA8234 /* UIView+AFDrawing.h */,
+				E74BD377187D54A800DA8234 /* UIView+AFDrawing.m */,
+				E74BD37A187D556600DA8234 /* UIViewController+AFActionSheet.h */,
+				E74BD37B187D556600DA8234 /* UIViewController+AFActionSheet.m */,
+				E74BD37D187D55C100DA8234 /* UIViewController+AFAlertView.h */,
+				E74BD37E187D55C100DA8234 /* UIViewController+AFAlertView.m */,
+				E74BD380187D55FD00DA8234 /* UIViewController+AFUtilities.h */,
+				E74BD381187D55FD00DA8234 /* UIViewController+AFUtilities.m */,
+				E74BD396187D64A600DA8234 /* UIViewController+AFNavigation.h */,
+				E74BD397187D64A600DA8234 /* UIViewController+AFNavigation.m */,
+			);
+			name = "UIKit Categories";
+			sourceTree = "<group>";
+		};
+		E74BD330187D443F00DA8234 /* Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				E74BD307187D2CDF00DA8234 /* AFSingleton.h */,
+				E74BD32F187D442900DA8234 /* AFConstants.h */,
+				E74BD379187D552A00DA8234 /* UIKitConstants+AFEstimates.h */,
+			);
+			name = Definitions;
+			sourceTree = "<group>";
+		};
+		E74BD341187D452F00DA8234 /* Toasts */ = {
+			isa = PBXGroup;
+			children = (
+				E74A4F56187E1D8D000C2FE4 /* AFToast.h */,
+				E74A4F57187E1D8D000C2FE4 /* AFToast.m */,
+				E74A4F59187E1D96000C2FE4 /* AFActivityToast.h */,
+				E74A4F5A187E1D96000C2FE4 /* AFActivityToast.m */,
+			);
+			name = Toasts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E711CBC2187B6B600034FA1B /* AFToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E711CBE6187B6B600034FA1B /* Build configuration list for PBXNativeTarget "AFToolKit" */;
+			buildPhases = (
+				E711CBBF187B6B600034FA1B /* Sources */,
+				E711CBC0187B6B600034FA1B /* Frameworks */,
+				E711CBC1187B6B600034FA1B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFToolKit;
+			productName = AFToolKit;
+			productReference = E711CBC3187B6B600034FA1B /* libAFToolKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E711CBD2187B6B600034FA1B /* AFToolKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E711CBE9187B6B600034FA1B /* Build configuration list for PBXNativeTarget "AFToolKitTests" */;
+			buildPhases = (
+				E711CBCF187B6B600034FA1B /* Sources */,
+				E711CBD0187B6B600034FA1B /* Frameworks */,
+				E711CBD1187B6B600034FA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E711CBDA187B6B600034FA1B /* PBXTargetDependency */,
+			);
+			name = AFToolKitTests;
+			productName = AFToolKitTests;
+			productReference = E711CBD3187B6B600034FA1B /* AFToolKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E74A4F60187E2690000C2FE4 /* AFToolKitResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74A4F71187E2690000C2FE4 /* Build configuration list for PBXNativeTarget "AFToolKitResources" */;
+			buildPhases = (
+				E74A4F5D187E2690000C2FE4 /* Sources */,
+				E74A4F5E187E2690000C2FE4 /* Frameworks */,
+				E74A4F5F187E2690000C2FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFToolKitResources;
+			productName = AFToolKitResources;
+			productReference = E74A4F61187E2690000C2FE4 /* AFToolKitResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E711CBBB187B6B600034FA1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ashkon Farhangi";
+			};
+			buildConfigurationList = E711CBBE187B6B600034FA1B /* Build configuration list for PBXProject "AFToolKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E711CBBA187B6B600034FA1B;
+			productRefGroup = E711CBC4187B6B600034FA1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E711CBC2187B6B600034FA1B /* AFToolKit */,
+				E711CBD2187B6B600034FA1B /* AFToolKitTests */,
+				E74A4F60187E2690000C2FE4 /* AFToolKitResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E711CBD1187B6B600034FA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E711CBE1187B6B600034FA1B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74A4F5F187E2690000C2FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74A4F6D187E2690000C2FE4 /* InfoPlist.strings in Resources */,
+				E74A4F74187E2737000C2FE4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E711CBBF187B6B600034FA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74BD37C187D556600DA8234 /* UIViewController+AFActionSheet.m in Sources */,
+				E74BD37F187D55C100DA8234 /* UIViewController+AFAlertView.m in Sources */,
+				E74BD2E0187D1BD800DA8234 /* AFTableViewController.m in Sources */,
+				E74BD36B187D528D00DA8234 /* AFScaledImageView.m in Sources */,
+				E74BD375187D545D00DA8234 /* UIImage+AFSizing.m in Sources */,
+				E74BD35C187D46D100DA8234 /* AFActivityIndicatorView.m in Sources */,
+				E74BD38E187D57A200DA8234 /* NSArray+AFNesting.m in Sources */,
+				E74BD32E187D440600DA8234 /* AFImagePicker.m in Sources */,
+				E74BD2C4187CDE5800DA8234 /* AFAdaptedTableViewController.m in Sources */,
+				E74BD31C187D302000DA8234 /* AFTextFieldCell.m in Sources */,
+				E74A5069187E3FAA000C2FE4 /* UIImage+AFToolKitResources.m in Sources */,
+				E74A4F5B187E1D96000C2FE4 /* AFActivityToast.m in Sources */,
+				E74A4FDB187E3690000C2FE4 /* NSObject+AFBlock.m in Sources */,
+				E74BD30B187D2E2700DA8234 /* AFImageViewController.m in Sources */,
+				E74BD378187D54A800DA8234 /* UIView+AFDrawing.m in Sources */,
+				E74A4F58187E1D8D000C2FE4 /* AFToast.m in Sources */,
+				E74BD31F187D3F3400DA8234 /* AFTableViewCell.m in Sources */,
+				E74BD2F2187D1C3500DA8234 /* UITableViewCell+AFUtilities.m in Sources */,
+				E74BD382187D55FD00DA8234 /* UIViewController+AFUtilities.m in Sources */,
+				E74BD2EB187D1BEB00DA8234 /* AFSplitViewController.m in Sources */,
+				E74BD395187D5ADE00DA8234 /* AFTextViewCell.m in Sources */,
+				E74BD36E187D52A000DA8234 /* AFTextView.m in Sources */,
+				E74BD368187D510300DA8234 /* AFSearchField.m in Sources */,
+				E74BD2DD187D1BCE00DA8234 /* AFViewController.m in Sources */,
+				E74A506C187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.m in Sources */,
+				E74BD319187D301800DA8234 /* AFImageCell.m in Sources */,
+				E74BD388187D565A00DA8234 /* NSArray+AFUtilities.m in Sources */,
+				E74BD32B187D43FB00DA8234 /* AFUtilities.m in Sources */,
+				E74BD2CA187CDE6C00DA8234 /* AFTableRowAdapter.m in Sources */,
+				E74BD391187D589000DA8234 /* NSMutableArray+AFNesting.m in Sources */,
+				E74BD398187D64A600DA8234 /* UIViewController+AFNavigation.m in Sources */,
+				E74A5070187E436E000C2FE4 /* UIImage+AFUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E711CBCF187B6B600034FA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E711CBE3187B6B600034FA1B /* AFToolKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74A4F5D187E2690000C2FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E711CBDA187B6B600034FA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E711CBC2187B6B600034FA1B /* AFToolKit */;
+			targetProxy = E711CBD9187B6B600034FA1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E711CBDF187B6B600034FA1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E711CBE0187B6B600034FA1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E74A4F6B187E2690000C2FE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74A4F6C187E2690000C2FE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E711CBE4187B6B600034FA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E711CBE5187B6B600034FA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E711CBE7187B6B600034FA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AFToolKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFToolKit/AFToolKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E711CBE8187B6B600034FA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AFToolKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFToolKit/AFToolKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E711CBEA187B6B600034FA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFToolKit/AFToolKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AFToolKitTests/AFToolKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E711CBEB187B6B600034FA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFToolKit/AFToolKit-Prefix.pch";
+				INFOPLIST_FILE = "AFToolKitTests/AFToolKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		E74A4F6F187E2690000C2FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFToolKitResources/AFToolKitResources-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AFToolKitResources/AFToolKitResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E74A4F70187E2690000C2FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFToolKitResources/AFToolKitResources-Prefix.pch";
+				INFOPLIST_FILE = "AFToolKitResources/AFToolKitResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E711CBBE187B6B600034FA1B /* Build configuration list for PBXProject "AFToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E711CBE4187B6B600034FA1B /* Debug */,
+				E711CBE5187B6B600034FA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E711CBE6187B6B600034FA1B /* Build configuration list for PBXNativeTarget "AFToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E711CBE7187B6B600034FA1B /* Debug */,
+				E711CBE8187B6B600034FA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E711CBE9187B6B600034FA1B /* Build configuration list for PBXNativeTarget "AFToolKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E711CBEA187B6B600034FA1B /* Debug */,
+				E711CBEB187B6B600034FA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74A4F71187E2690000C2FE4 /* Build configuration list for PBXNativeTarget "AFToolKitResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74A4F6F187E2690000C2FE4 /* Debug */,
+				E74A4F70187E2690000C2FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E711CBBB187B6B600034FA1B /* Project object */;
+}
