@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>809A2A51-4520-4DAB-BFCF-0DA45D377F93</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AFToolKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>90A90D14-E59B-46E1-AB18-AD9980DC2F85</key>
+		<string>https://github.com/ashkonf/AFToolKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AFToolKit.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>90A90D14-E59B-46E1-AB18-AD9980DC2F85</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ashkonf/AFToolKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>90A90D14-E59B-46E1-AB18-AD9980DC2F85</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>90A90D14-E59B-46E1-AB18-AD9980DC2F85</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AFToolKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

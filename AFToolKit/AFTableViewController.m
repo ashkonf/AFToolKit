@@ -87,7 +87,7 @@
     self.tableView.frame = [self _tableViewFrame];
 }
 
-// should to implement all uitableview datasource and delegate methods
+/// should to implement all uitableview datasource and delegate methods?
 
 #pragma mark - UITableViewDatasource
 
