@@ -14,10 +14,6 @@
 
 + (NSBundle *)af_toolKitBundle
 {
-    for (NSBundle *bundle in [NSBundle allBundles]) {
-        NSLog(@"%@",bundle);
-    }
-    
 	static NSBundle *afToolKitBundle = nil;
 	static dispatch_once_t onceToken;
 	dispatch_once(&onceToken, ^{

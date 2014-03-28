@@ -15,9 +15,9 @@
 /// possible that don't need table view as argument to any of these (additional benefit of doing that would be making names of first two methods different that UITVCDatasource method names)
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView;
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
-- (id)objectForTableView:(UITableView *)tableView atIndexPath:(NSIndexPath *)indexPath;
+- (id)objectForTableView:(UITableView *)tableView atIndexPath:(NSIndexPath *)indexPath; // Subclass must manage mapping of objects to index paths
 /**
- * used to have index path arg.
+ * This method used to have index path argument.
  * However, giving it one is inherently problematic. This is supposed to return
  * a single adapter that will be used for that tvc's lifetime. Over that lifetime,
  * the object could appear at many different index paths. So there is no connection

@@ -8,17 +8,24 @@
 
 @interface UIView (AFDrawing)
 
-// Border
+// Borders
 - (void)af_addBorderWithColor:(UIColor *)color width:(CGFloat)width;
+- (void)af_addTopBorderWithColor:(UIColor *)color width:(CGFloat)width;
+- (void)af_addBottomBorderWithColor:(UIColor *)color width:(CGFloat)width;
+- (void)af_addLeftBorderWithColor:(UIColor *)color width:(CGFloat)width;
+- (void)af_addRightBorderWithColor:(UIColor *)color width:(CGFloat)width;
 
-// Rounded Rect
+// Rounded Corners
 - (void)af_makeRoundedRectWithBorderColor:(UIColor *)borderColor;
 - (void)af_makeRoundedRectWithBorderColor:(UIColor *)borderColor borderWidth:(CGFloat)borderWidth;
 - (void)af_makeRoundedRectWithBorderColor:(UIColor *)borderColor borderWidth:(CGFloat)borderWidth cornerRadius:(CGFloat)cornerRadius;
 
-// Oval Views
+// Ovular Views
 - (void)af_makeOvular;
 - (void)af_makeOvularWithBorderColor:(UIColor *)borderColor;
 - (void)af_makeOvularWithBorderColor:(UIColor *)borderColor borderWidth:(CGFloat)borderWidth;
+
+// Reseting
+- (void)af_resetEdges;
 
 @end

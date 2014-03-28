@@ -6,19 +6,37 @@
 //  Copyright (c) 2014 Ashkon Farhangi. All rights reserved.
 //
 
+@protocol AFTableViewCellDatasource;
 @protocol AFTableViewCellDelegate;
 
 @interface AFTableViewCell : UITableViewCell
 
-- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier;
-- (CGFloat)heightInTableView:(UITableView *)tableView;
+// Returning a negative number will result in the parent table view's default row height being used
++ (CGFloat)heightForCellWidth:(CGFloat)cellWidth withDatasource:(id<AFTableViewCellDatasource>)datasource;
 
-@property (nonatomic) id<AFTableViewCellDelegate> delegate;
+- (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier;
+
+- (void)reloadData;
+
+@property (nonatomic, weak) id<AFTableViewCellDatasource> datasource;
+@property (nonatomic, weak) id<AFTableViewCellDelegate> delegate;
+
+@end
+
+/**
+ * Subclasses should extend this protocol so 
+ * that it provides the data they need.
+ */
+@protocol AFTableViewCellDatasource <NSObject>
+
+@required
+
+@property (nonatomic, readonly) CGFloat contentInset;
 
 @end
 
 @protocol AFTableViewCellDelegate <NSObject>
 
-- (void)tableViewCell:(AFTableViewCell *)tableViewCell updatedToContentHeight:(CGFloat)contentHeight;
+- (void)heightChangedForCell:(AFTableViewCell *)cell;
 
 @end

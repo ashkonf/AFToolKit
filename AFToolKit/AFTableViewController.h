@@ -8,6 +8,8 @@
 
 #import "AFViewController.h"
 
+/// a huge issue is that this doesn't have editing support. can I fix that?
+
 @interface AFTableViewController : AFViewController <UITableViewDelegate, UITableViewDataSource>
 
 - (id)initWithStyle:(UITableViewStyle)style;

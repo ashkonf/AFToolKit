@@ -15,6 +15,10 @@
 		E711CBDB187B6B600034FA1B /* libAFToolKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E711CBC3187B6B600034FA1B /* libAFToolKit.a */; };
 		E711CBE1187B6B600034FA1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E711CBDF187B6B600034FA1B /* InfoPlist.strings */; };
 		E711CBE3187B6B600034FA1B /* AFToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E711CBE2187B6B600034FA1B /* AFToolKitTests.m */; };
+		E746ECA318E3F1060098F382 /* AFStatedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E746ECA218E3F1060098F382 /* AFStatedButton.m */; };
+		E746ECA418E3F1160098F382 /* AFStatedButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E746ECA118E3F1060098F382 /* AFStatedButton.h */; };
+		E746ECAA18E40A090098F382 /* AFOvalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E746ECA918E40A090098F382 /* AFOvalButton.m */; };
+		E746ECAB18E40AC60098F382 /* AFOvalButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E746ECA818E40A090098F382 /* AFOvalButton.h */; };
 		E74A4F58187E1D8D000C2FE4 /* AFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A4F57187E1D8D000C2FE4 /* AFToast.m */; };
 		E74A4F5B187E1D96000C2FE4 /* AFActivityToast.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A4F5A187E1D96000C2FE4 /* AFActivityToast.m */; };
 		E74A4F63187E2690000C2FE4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74A4F62187E2690000C2FE4 /* Cocoa.framework */; };
@@ -57,6 +61,10 @@
 		E74A5069187E3FAA000C2FE4 /* UIImage+AFToolKitResources.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A5068187E3FAA000C2FE4 /* UIImage+AFToolKitResources.m */; };
 		E74A506C187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A506B187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.m */; };
 		E74A5070187E436E000C2FE4 /* UIImage+AFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E74A506F187E436E000C2FE4 /* UIImage+AFUtilities.m */; };
+		E74A5076187E92AE000C2FE4 /* AFToolKitResources.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74A506D187E423E000C2FE4 /* AFToolKitResources.h */; };
+		E74A5077187E92AE000C2FE4 /* NSBundle+AFToolKitResources.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74A506A187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.h */; };
+		E74A5078187E92AE000C2FE4 /* UIImage+AFToolKitResources.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74A5067187E3FAA000C2FE4 /* UIImage+AFToolKitResources.h */; };
+		E74A5079187E92AE000C2FE4 /* UIImage+AFUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74A506E187E436E000C2FE4 /* UIImage+AFUtilities.h */; };
 		E74BD2C4187CDE5800DA8234 /* AFAdaptedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2C1187CDE5800DA8234 /* AFAdaptedTableViewController.m */; };
 		E74BD2CA187CDE6C00DA8234 /* AFTableRowAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2C7187CDE6C00DA8234 /* AFTableRowAdapter.m */; };
 		E74BD2DD187D1BCE00DA8234 /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2DC187D1BCE00DA8234 /* AFViewController.m */; };
@@ -83,6 +91,16 @@
 		E74BD391187D589000DA8234 /* NSMutableArray+AFNesting.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD390187D589000DA8234 /* NSMutableArray+AFNesting.m */; };
 		E74BD395187D5ADE00DA8234 /* AFTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD394187D5ADE00DA8234 /* AFTextViewCell.m */; };
 		E74BD398187D64A600DA8234 /* UIViewController+AFNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD397187D64A600DA8234 /* UIViewController+AFNavigation.m */; };
+		E78DB181189CA32200F91FEA /* AFBufferAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E78DB180189CA32200F91FEA /* AFBufferAdapter.m */; };
+		E78DB184189CA7BA00F91FEA /* AFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E78DB183189CA7BA00F91FEA /* AFButton.m */; };
+		E78DB186189CA8A100F91FEA /* AFBufferAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E78DB17F189CA32200F91FEA /* AFBufferAdapter.h */; };
+		E78DB187189CA8A100F91FEA /* AFButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E78DB182189CA7BA00F91FEA /* AFButton.h */; };
+		E78DB19E189D281D00F91FEA /* AFBasicAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E78DB19D189D281D00F91FEA /* AFBasicAdapter.m */; };
+		E7EDB37D18C6A9750030D43C /* AFBasicAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E78DB19C189D281D00F91FEA /* AFBasicAdapter.h */; };
+		E7F787D01888A5C00055A55D /* AFStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F787CF1888A5C00055A55D /* AFStaticTableViewController.m */; };
+		E7F787D31888A70B0055A55D /* AFStaticTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F787D21888A70B0055A55D /* AFStaticTableViewSection.m */; };
+		E7F787DA18892B4E0055A55D /* AFStaticTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7F787CE1888A5C00055A55D /* AFStaticTableViewController.h */; };
+		E7F787DB18892B4E0055A55D /* AFStaticTableViewSection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7F787D11888A70B0055A55D /* AFStaticTableViewSection.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +120,17 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				E746ECAB18E40AC60098F382 /* AFOvalButton.h in CopyFiles */,
+				E746ECA418E3F1160098F382 /* AFStatedButton.h in CopyFiles */,
+				E7EDB37D18C6A9750030D43C /* AFBasicAdapter.h in CopyFiles */,
+				E78DB186189CA8A100F91FEA /* AFBufferAdapter.h in CopyFiles */,
+				E78DB187189CA8A100F91FEA /* AFButton.h in CopyFiles */,
+				E7F787DA18892B4E0055A55D /* AFStaticTableViewController.h in CopyFiles */,
+				E7F787DB18892B4E0055A55D /* AFStaticTableViewSection.h in CopyFiles */,
+				E74A5076187E92AE000C2FE4 /* AFToolKitResources.h in CopyFiles */,
+				E74A5077187E92AE000C2FE4 /* NSBundle+AFToolKitResources.h in CopyFiles */,
+				E74A5078187E92AE000C2FE4 /* UIImage+AFToolKitResources.h in CopyFiles */,
+				E74A5079187E92AE000C2FE4 /* UIImage+AFUtilities.h in CopyFiles */,
 				E74A4FE1187E3789000C2FE4 /* AFViewController.h in CopyFiles */,
 				E74A4FE2187E3789000C2FE4 /* AFSplitViewController.h in CopyFiles */,
 				E74A4FE3187E3789000C2FE4 /* AFImageViewController.h in CopyFiles */,
@@ -152,6 +181,10 @@
 		E711CBDE187B6B600034FA1B /* AFToolKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFToolKitTests-Info.plist"; sourceTree = "<group>"; };
 		E711CBE0187B6B600034FA1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E711CBE2187B6B600034FA1B /* AFToolKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFToolKitTests.m; sourceTree = "<group>"; };
+		E746ECA118E3F1060098F382 /* AFStatedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFStatedButton.h; sourceTree = "<group>"; };
+		E746ECA218E3F1060098F382 /* AFStatedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFStatedButton.m; sourceTree = "<group>"; };
+		E746ECA818E40A090098F382 /* AFOvalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOvalButton.h; sourceTree = "<group>"; };
+		E746ECA918E40A090098F382 /* AFOvalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOvalButton.m; sourceTree = "<group>"; };
 		E74A4F56187E1D8D000C2FE4 /* AFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFToast.h; sourceTree = "<group>"; };
 		E74A4F57187E1D8D000C2FE4 /* AFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFToast.m; sourceTree = "<group>"; };
 		E74A4F59187E1D96000C2FE4 /* AFActivityToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFActivityToast.h; sourceTree = "<group>"; };
@@ -230,6 +263,16 @@
 		E74BD394187D5ADE00DA8234 /* AFTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTextViewCell.m; sourceTree = "<group>"; };
 		E74BD396187D64A600DA8234 /* UIViewController+AFNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AFNavigation.h"; sourceTree = "<group>"; };
 		E74BD397187D64A600DA8234 /* UIViewController+AFNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AFNavigation.m"; sourceTree = "<group>"; };
+		E78DB17F189CA32200F91FEA /* AFBufferAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBufferAdapter.h; sourceTree = "<group>"; };
+		E78DB180189CA32200F91FEA /* AFBufferAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBufferAdapter.m; sourceTree = "<group>"; };
+		E78DB182189CA7BA00F91FEA /* AFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFButton.h; sourceTree = "<group>"; };
+		E78DB183189CA7BA00F91FEA /* AFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFButton.m; sourceTree = "<group>"; };
+		E78DB19C189D281D00F91FEA /* AFBasicAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBasicAdapter.h; sourceTree = "<group>"; };
+		E78DB19D189D281D00F91FEA /* AFBasicAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBasicAdapter.m; sourceTree = "<group>"; };
+		E7F787CE1888A5C00055A55D /* AFStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFStaticTableViewController.h; sourceTree = "<group>"; };
+		E7F787CF1888A5C00055A55D /* AFStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFStaticTableViewController.m; sourceTree = "<group>"; };
+		E7F787D11888A70B0055A55D /* AFStaticTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFStaticTableViewSection.h; sourceTree = "<group>"; };
+		E7F787D21888A70B0055A55D /* AFStaticTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFStaticTableViewSection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +382,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E721355A18BE309700A89F49 /* Static Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7F787CE1888A5C00055A55D /* AFStaticTableViewController.h */,
+				E7F787CF1888A5C00055A55D /* AFStaticTableViewController.m */,
+				E7F787D11888A70B0055A55D /* AFStaticTableViewSection.h */,
+				E7F787D21888A70B0055A55D /* AFStaticTableViewSection.m */,
+			);
+			name = "Static Table Views";
+			sourceTree = "<group>";
+		};
 		E74A4F64187E2690000C2FE4 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +442,8 @@
 				E74BD2C1187CDE5800DA8234 /* AFAdaptedTableViewController.m */,
 				E74BD2C6187CDE6C00DA8234 /* AFTableRowAdapter.h */,
 				E74BD2C7187CDE6C00DA8234 /* AFTableRowAdapter.m */,
+				E78DB17E189CA30B00F91FEA /* Table Row Adapters */,
+				E721355A18BE309700A89F49 /* Static Table Views */,
 			);
 			name = "Adapted Table Views";
 			sourceTree = "<group>";
@@ -444,6 +500,12 @@
 				E74BD36A187D528D00DA8234 /* AFScaledImageView.m */,
 				E74BD36C187D52A000DA8234 /* AFTextView.h */,
 				E74BD36D187D52A000DA8234 /* AFTextView.m */,
+				E78DB182189CA7BA00F91FEA /* AFButton.h */,
+				E78DB183189CA7BA00F91FEA /* AFButton.m */,
+				E746ECA118E3F1060098F382 /* AFStatedButton.h */,
+				E746ECA218E3F1060098F382 /* AFStatedButton.m */,
+				E746ECA818E40A090098F382 /* AFOvalButton.h */,
+				E746ECA918E40A090098F382 /* AFOvalButton.m */,
 				E74BD341187D452F00DA8234 /* Toasts */,
 			);
 			name = "Custom Views";
@@ -517,6 +579,17 @@
 			name = Toasts;
 			sourceTree = "<group>";
 		};
+		E78DB17E189CA30B00F91FEA /* Table Row Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				E78DB17F189CA32200F91FEA /* AFBufferAdapter.h */,
+				E78DB180189CA32200F91FEA /* AFBufferAdapter.m */,
+				E78DB19C189D281D00F91FEA /* AFBasicAdapter.h */,
+				E78DB19D189D281D00F91FEA /* AFBasicAdapter.m */,
+			);
+			name = "Table Row Adapters";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -578,7 +651,7 @@
 		E711CBBB187B6B600034FA1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Ashkon Farhangi";
 			};
 			buildConfigurationList = E711CBBE187B6B600034FA1B /* Build configuration list for PBXProject "AFToolKit" */;
@@ -631,13 +704,18 @@
 				E74BD36B187D528D00DA8234 /* AFScaledImageView.m in Sources */,
 				E74BD375187D545D00DA8234 /* UIImage+AFSizing.m in Sources */,
 				E74BD35C187D46D100DA8234 /* AFActivityIndicatorView.m in Sources */,
+				E746ECAA18E40A090098F382 /* AFOvalButton.m in Sources */,
+				E7F787D31888A70B0055A55D /* AFStaticTableViewSection.m in Sources */,
 				E74BD38E187D57A200DA8234 /* NSArray+AFNesting.m in Sources */,
 				E74BD32E187D440600DA8234 /* AFImagePicker.m in Sources */,
 				E74BD2C4187CDE5800DA8234 /* AFAdaptedTableViewController.m in Sources */,
 				E74BD31C187D302000DA8234 /* AFTextFieldCell.m in Sources */,
 				E74A5069187E3FAA000C2FE4 /* UIImage+AFToolKitResources.m in Sources */,
 				E74A4F5B187E1D96000C2FE4 /* AFActivityToast.m in Sources */,
+				E746ECA318E3F1060098F382 /* AFStatedButton.m in Sources */,
+				E78DB184189CA7BA00F91FEA /* AFButton.m in Sources */,
 				E74A4FDB187E3690000C2FE4 /* NSObject+AFBlock.m in Sources */,
+				E78DB19E189D281D00F91FEA /* AFBasicAdapter.m in Sources */,
 				E74BD30B187D2E2700DA8234 /* AFImageViewController.m in Sources */,
 				E74BD378187D54A800DA8234 /* UIView+AFDrawing.m in Sources */,
 				E74A4F58187E1D8D000C2FE4 /* AFToast.m in Sources */,
@@ -649,6 +727,7 @@
 				E74BD36E187D52A000DA8234 /* AFTextView.m in Sources */,
 				E74BD368187D510300DA8234 /* AFSearchField.m in Sources */,
 				E74BD2DD187D1BCE00DA8234 /* AFViewController.m in Sources */,
+				E7F787D01888A5C00055A55D /* AFStaticTableViewController.m in Sources */,
 				E74A506C187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.m in Sources */,
 				E74BD319187D301800DA8234 /* AFImageCell.m in Sources */,
 				E74BD388187D565A00DA8234 /* NSArray+AFUtilities.m in Sources */,
@@ -656,6 +735,7 @@
 				E74BD2CA187CDE6C00DA8234 /* AFTableRowAdapter.m in Sources */,
 				E74BD391187D589000DA8234 /* NSMutableArray+AFNesting.m in Sources */,
 				E74BD398187D64A600DA8234 /* UIViewController+AFNavigation.m in Sources */,
+				E78DB181189CA32200F91FEA /* AFBufferAdapter.m in Sources */,
 				E74A5070187E436E000C2FE4 /* UIImage+AFUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -709,7 +789,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -747,7 +826,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -802,7 +880,6 @@
 		E711CBEA187B6B600034FA1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -823,7 +900,6 @@
 		E711CBEB187B6B600034FA1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

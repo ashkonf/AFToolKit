@@ -5,19 +5,21 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>809A2A51-4520-4DAB-BFCF-0DA45D377F93</string>
+	<string>3A4F1BD1-D7D0-40D8-B05E-88866644A879</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AFToolKit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>90A90D14-E59B-46E1-AB18-AD9980DC2F85</key>
+		<key>E311BFFF-670D-449E-9F92-8C8EDDC1A760</key>
 		<string>https://github.com/ashkonf/AFToolKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AFToolKit.xcodeproj/project.xcworkspace</string>
+	<string>AFToolKit/AFToolKit.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>90A90D14-E59B-46E1-AB18-AD9980DC2F85</key>
+		<key>6B12132E-7550-4892-B1B4-981B72A561D4</key>
+		<string>../../..</string>
+		<key>E311BFFF-670D-449E-9F92-8C8EDDC1A760</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +27,24 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>90A90D14-E59B-46E1-AB18-AD9980DC2F85</string>
+	<string>6B12132E-7550-4892-B1B4-981B72A561D4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>90A90D14-E59B-46E1-AB18-AD9980DC2F85</string>
+			<string>E311BFFF-670D-449E-9F92-8C8EDDC1A760</string>
 			<key>IDESourceControlWCCName</key>
 			<string>AFToolKit</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6B12132E-7550-4892-B1B4-981B72A561D4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tool Kit</string>
 		</dict>
 	</array>
 </dict>

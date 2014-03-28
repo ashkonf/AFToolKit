@@ -81,8 +81,6 @@
     if ([self respondsToSelector:@selector(edgesForExtendedLayout)]) {
         self.edgesForExtendedLayout = [self edgesForLayout];
     }
-
-    [self.view addSubview:self.background];
 }
 
 - (BOOL)disablesAutomaticKeyboardDismissal
@@ -94,6 +92,7 @@
 {
     [super viewDidLayoutSubviews];
 
+    [self.view insertSubview:self.background atIndex:0];
     self.background.frame = [self _backgroundFrame];
 }
 

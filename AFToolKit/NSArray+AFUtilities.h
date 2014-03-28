@@ -11,4 +11,8 @@
 - (BOOL)af_indexInBounds:(NSInteger)index;
 - (void)af_performBlockForAllIndices:(void (^)(id object, NSInteger index))block;
 
+// Self must be array of NSNumbers
+- (CGFloat)af_min;
+- (CGFloat)af_max;
+
 @end

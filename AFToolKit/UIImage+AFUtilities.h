@@ -9,5 +9,6 @@
 @interface UIImage (AFUtilities)
 
 + (UIImage *)af_imageNamed:(NSString *)imageName bundleName:(NSString *)bundleName;
++ (UIImage *)af_imageWithColor:(UIColor *)color;
 
 @end

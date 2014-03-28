@@ -8,6 +8,8 @@
 
 #import "AFTableViewController.h"
 
+#import "AFTableViewCell.h"
+
 @interface AFTableViewController ()
 
 @property (nonatomic, readwrite) UITableView *tableView;
@@ -23,14 +25,10 @@
 {
     self = [super init];
     if (self) {
-        // Initialization
+        self.style = style;
+        self.automaticallyAdjustsScrollViewInsets = YES;
     }
     return self;
-}
-
-- (void)reloadData
-{
-    [self.tableView reloadData];
 }
 
 #pragma mark - Setters and Getters
@@ -79,15 +77,27 @@
 
 - (CGRect)_tableViewFrame
 {
-    return self.view.bounds;
+    CGRect tableViewFrame = self.view.bounds;
+    CGRect intersection = CGRectIntersection(self.keyboardFrame, self.view.frame);
+    tableViewFrame.size.height -= intersection.size.height;
+    return tableViewFrame;
 }
 
 - (void)_setTableViewFrame
 {
-    self.tableView.frame = [self _tableViewFrame];
-}
+    CGRect tableViewFrame = [self _tableViewFrame];
 
-/// should to implement all uitableview datasource and delegate methods?
+    // We animate the frame setting only if frame has been set in past
+    if (CGRectEqualToRect(self.tableView.frame, CGRectZero)) {
+        self.tableView.frame = tableViewFrame;
+
+    } else {
+        [UIView animateWithDuration:0.5 animations:^{
+            self.tableView.frame = tableViewFrame;
+        }];
+    }
+}
+// should to implement all uitableview datasource and delegate methods
 
 #pragma mark - UITableViewDatasource
 
@@ -111,6 +121,12 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+//// get rid of once make heights all generalized with adapted TVCs
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return tableView.rowHeight;
 }
 
 @end

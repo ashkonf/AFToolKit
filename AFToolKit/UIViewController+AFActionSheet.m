@@ -8,6 +8,8 @@
 
 #import "UIViewController+AFActionSheet.h"
 
+#import "AFUtilities.h"
+
 @implementation UIViewController (AFActionSheet)
 
 /// should these simplifications go into an action shet category instead of a Tab Bar Controller category?
@@ -49,7 +51,15 @@
         actionSheet.cancelButtonIndex = [actionSheet addButtonWithTitle:cancelButtonTitle];
     }
 
-    [actionSheet showInView:self.view];
+    if ([AFUtilities onIpad]) {
+        [actionSheet showInView:self.view];
+    } else {
+        if (self.tabBarController) {
+            [actionSheet showFromTabBar:self.tabBarController.tabBar];
+        } else {
+            [actionSheet showFromRect:self.view.frame inView:self.view animated:YES];
+        }
+    }
 }
 
 @end

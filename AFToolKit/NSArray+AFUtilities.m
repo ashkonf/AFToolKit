@@ -27,4 +27,51 @@
     }
 }
 
+//// unfinished
+/// convey thru name that will only perform if possible?
+/// fixing that warning would be great:. This article describes a solution: https://stackoverflow.com/questions/7017281/performselector-may-cause-a-leak-because-its-selector-is-unknown
+- (void)af_makeObjectsPerformSelector:(SEL)selector
+{
+    [self af_performBlockForAllIndices:^ (id object, NSInteger index) {
+        if ([object respondsToSelector:selector]) {
+            [object performSelector:selector];
+        }
+    }];
+}
+
+- (CGFloat)af_min
+{
+    CGFloat min = CGFLOAT_MAX;
+
+    for (NSNumber *number in self) {
+        if ([number isKindOfClass:[NSNumber class]]) {
+            if ([number floatValue] < min) {
+                min = [number floatValue];
+            }
+        } else {
+            [NSException raise:@"AF: Array must contain only NSNumber objects" format:@""];
+        }
+    }
+
+    return min;
+}
+
+- (CGFloat)af_max
+{
+    CGFloat max = CGFLOAT_MIN;
+
+    for (NSNumber *number in self) {
+        if ([number isKindOfClass:[NSNumber class]]) {
+            if ([number floatValue] > max) {
+                max = [number floatValue];
+            }
+        } else {
+            [NSException raise:@"AF: Array must contain only NSNumber objects" format:@""];
+        }
+
+    }
+
+    return max;
+}
+
 @end

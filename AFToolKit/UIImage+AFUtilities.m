@@ -23,4 +23,22 @@
 	return [UIImage imageWithContentsOfFile:imagePath];
 }
 
+/**
+ * Taken from: https://stackoverflow.com/questions/990976/how-to-create-a-colored-1x1-uiimage-on-the-iphone-dynamically
+ */
++ (UIImage *)af_imageWithColor:(UIColor *)color
+{
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+
+    return image;
+}
+
 @end

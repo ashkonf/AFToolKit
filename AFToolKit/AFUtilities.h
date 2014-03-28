@@ -10,7 +10,4 @@
 
 + (BOOL)onIpad;
 
-+ (CGFloat)min:(NSArray *)numbers;
-+ (CGFloat)max:(NSArray *)numbers;
-
 @end

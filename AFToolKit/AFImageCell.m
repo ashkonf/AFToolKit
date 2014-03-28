@@ -10,8 +10,6 @@
 
 @interface AFImageCell()
 
-@property (nonatomic) UIImageView *backgroundImageView;
-
 @end
 
 @implementation AFImageCell
@@ -23,7 +21,7 @@
     CGFloat height = 0;
 
     if (self.image) {
-        height = self.frame.size.width / self.image.size.width * self.image.size.height;
+        height = self.contentView.frame.size.width / self.image.size.width * self.image.size.height;
     }
 
     return height;
@@ -35,31 +33,37 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        [self.contentView addSubview:self.backgroundImageView];
+        [self.contentView addSubview:self.imageView];
     }
     return self;
+}
+
+#pragma mark - UIView
+
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+
+    self.imageView.frame = [self _imageViewFrame];
+}
+
+#pragma mark - Layout
+
+- (CGRect)_imageViewFrame
+{
+    return self.contentView.bounds;
 }
 
 #pragma mark - Getters and Setters
 
 - (void)setImage:(UIImage *)image
 {
-    self.backgroundImageView.image = image;
+    self.imageView.image = image;
 }
 
 - (UIImage *)image
 {
-    return self.backgroundImageView.image;
-}
-
-- (UIImageView *)backgroundImageView
-{
-    if (!_backgroundImageView) {
-        _backgroundImageView = [[UIImageView alloc] init];
-        _backgroundImageView.frame = self.contentView.bounds;
-        _backgroundImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    }
-    return _backgroundImageView;
+    return self.imageView.image;
 }
 
 @end

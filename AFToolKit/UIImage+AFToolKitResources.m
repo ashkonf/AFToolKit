@@ -19,8 +19,6 @@
 
     if (!image) {
         image = [UIImage imageWithContentsOfFile:[[[NSBundle af_toolKitBundle] resourcePath] stringByAppendingPathComponent:imageName]];
-        //NSLog(@"%@",image);
-        //NSLog(@"%@",[NSBundle af_toolKitBundle]);
     }
 
     return image;

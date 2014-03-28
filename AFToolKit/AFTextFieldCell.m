@@ -41,7 +41,7 @@
     CGFloat verticalMargin = (self.bounds.size.height - lineHeight) / 2;
     CGFloat xCoord = DEFAULT_TABLE_CELL_CONTENT_INSET;
     CGFloat yCoord = verticalMargin;
-    CGFloat width = self.frame.size.width - xCoord - DEFAULT_TABLE_CELL_CONTENT_INSET;
+    CGFloat width = self.contentView.frame.size.width - xCoord - DEFAULT_TABLE_CELL_CONTENT_INSET;
     CGFloat height = self.bounds.size.height - yCoord - verticalMargin;
     return CGRectMake(xCoord, yCoord, width, height);
 }
