@@ -33,15 +33,6 @@
 		E74A4FE1187E3789000C2FE4 /* AFViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2DB187D1BCE00DA8234 /* AFViewController.h */; };
 		E74A4FE2187E3789000C2FE4 /* AFSplitViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2E6187D1BEB00DA8234 /* AFSplitViewController.h */; };
 		E74A4FE3187E3789000C2FE4 /* AFImageViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD309187D2E2700DA8234 /* AFImageViewController.h */; };
-		E74A4FE4187E3789000C2FE4 /* AFTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2DE187D1BD800DA8234 /* AFTableViewController.h */; };
-		E74A4FE5187E3789000C2FE4 /* UITableViewCell+AFUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2F0187D1C3500DA8234 /* UITableViewCell+AFUtilities.h */; };
-		E74A4FE6187E3789000C2FE4 /* AFTableViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD31D187D3F3400DA8234 /* AFTableViewCell.h */; };
-		E74A4FE7187E3789000C2FE4 /* AFImageCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD317187D301800DA8234 /* AFImageCell.h */; };
-		E74A4FE8187E3789000C2FE4 /* AFTextFieldCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD31A187D302000DA8234 /* AFTextFieldCell.h */; };
-		E74A4FE9187E3789000C2FE4 /* AFTextViewCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD393187D5ADE00DA8234 /* AFTextViewCell.h */; };
-		E74A4FEA187E3789000C2FE4 /* AFAdaptedTableViewDatasource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2CF187D0C1100DA8234 /* AFAdaptedTableViewDatasource.h */; };
-		E74A4FEB187E3789000C2FE4 /* AFAdaptedTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2C0187CDE5800DA8234 /* AFAdaptedTableViewController.h */; };
-		E74A4FEC187E3789000C2FE4 /* AFTableRowAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD2C6187CDE6C00DA8234 /* AFTableRowAdapter.h */; };
 		E74A4FED187E3789000C2FE4 /* AFActivityIndicatorView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD35A187D46D100DA8234 /* AFActivityIndicatorView.h */; };
 		E74A4FEE187E3789000C2FE4 /* AFSearchField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD366187D510300DA8234 /* AFSearchField.h */; };
 		E74A4FEF187E3789000C2FE4 /* AFScaledImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74BD369187D528D00DA8234 /* AFScaledImageView.h */; };
@@ -65,16 +56,9 @@
 		E74A5077187E92AE000C2FE4 /* NSBundle+AFToolKitResources.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74A506A187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.h */; };
 		E74A5078187E92AE000C2FE4 /* UIImage+AFToolKitResources.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74A5067187E3FAA000C2FE4 /* UIImage+AFToolKitResources.h */; };
 		E74A5079187E92AE000C2FE4 /* UIImage+AFUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E74A506E187E436E000C2FE4 /* UIImage+AFUtilities.h */; };
-		E74BD2C4187CDE5800DA8234 /* AFAdaptedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2C1187CDE5800DA8234 /* AFAdaptedTableViewController.m */; };
-		E74BD2CA187CDE6C00DA8234 /* AFTableRowAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2C7187CDE6C00DA8234 /* AFTableRowAdapter.m */; };
 		E74BD2DD187D1BCE00DA8234 /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2DC187D1BCE00DA8234 /* AFViewController.m */; };
-		E74BD2E0187D1BD800DA8234 /* AFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2DF187D1BD800DA8234 /* AFTableViewController.m */; };
 		E74BD2EB187D1BEB00DA8234 /* AFSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2E7187D1BEB00DA8234 /* AFSplitViewController.m */; };
-		E74BD2F2187D1C3500DA8234 /* UITableViewCell+AFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD2F1187D1C3500DA8234 /* UITableViewCell+AFUtilities.m */; };
 		E74BD30B187D2E2700DA8234 /* AFImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD30A187D2E2700DA8234 /* AFImageViewController.m */; };
-		E74BD319187D301800DA8234 /* AFImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD318187D301800DA8234 /* AFImageCell.m */; };
-		E74BD31C187D302000DA8234 /* AFTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD31B187D302000DA8234 /* AFTextFieldCell.m */; };
-		E74BD31F187D3F3400DA8234 /* AFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD31E187D3F3400DA8234 /* AFTableViewCell.m */; };
 		E74BD32B187D43FB00DA8234 /* AFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD32A187D43FB00DA8234 /* AFUtilities.m */; };
 		E74BD32E187D440600DA8234 /* AFImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD32D187D440600DA8234 /* AFImagePicker.m */; };
 		E74BD35C187D46D100DA8234 /* AFActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD35B187D46D100DA8234 /* AFActivityIndicatorView.m */; };
@@ -89,18 +73,10 @@
 		E74BD388187D565A00DA8234 /* NSArray+AFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD387187D565A00DA8234 /* NSArray+AFUtilities.m */; };
 		E74BD38E187D57A200DA8234 /* NSArray+AFNesting.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD38D187D57A200DA8234 /* NSArray+AFNesting.m */; };
 		E74BD391187D589000DA8234 /* NSMutableArray+AFNesting.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD390187D589000DA8234 /* NSMutableArray+AFNesting.m */; };
-		E74BD395187D5ADE00DA8234 /* AFTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD394187D5ADE00DA8234 /* AFTextViewCell.m */; };
 		E74BD398187D64A600DA8234 /* UIViewController+AFNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = E74BD397187D64A600DA8234 /* UIViewController+AFNavigation.m */; };
-		E78DB181189CA32200F91FEA /* AFBufferAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E78DB180189CA32200F91FEA /* AFBufferAdapter.m */; };
+		E789B9D61B45907B00B0589E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E789B9D51B45907B00B0589E /* UIKit.framework */; };
 		E78DB184189CA7BA00F91FEA /* AFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E78DB183189CA7BA00F91FEA /* AFButton.m */; };
-		E78DB186189CA8A100F91FEA /* AFBufferAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E78DB17F189CA32200F91FEA /* AFBufferAdapter.h */; };
 		E78DB187189CA8A100F91FEA /* AFButton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E78DB182189CA7BA00F91FEA /* AFButton.h */; };
-		E78DB19E189D281D00F91FEA /* AFBasicAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E78DB19D189D281D00F91FEA /* AFBasicAdapter.m */; };
-		E7EDB37D18C6A9750030D43C /* AFBasicAdapter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E78DB19C189D281D00F91FEA /* AFBasicAdapter.h */; };
-		E7F787D01888A5C00055A55D /* AFStaticTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F787CF1888A5C00055A55D /* AFStaticTableViewController.m */; };
-		E7F787D31888A70B0055A55D /* AFStaticTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F787D21888A70B0055A55D /* AFStaticTableViewSection.m */; };
-		E7F787DA18892B4E0055A55D /* AFStaticTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7F787CE1888A5C00055A55D /* AFStaticTableViewController.h */; };
-		E7F787DB18892B4E0055A55D /* AFStaticTableViewSection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7F787D11888A70B0055A55D /* AFStaticTableViewSection.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,11 +98,7 @@
 			files = (
 				E746ECAB18E40AC60098F382 /* AFOvalButton.h in CopyFiles */,
 				E746ECA418E3F1160098F382 /* AFStatedButton.h in CopyFiles */,
-				E7EDB37D18C6A9750030D43C /* AFBasicAdapter.h in CopyFiles */,
-				E78DB186189CA8A100F91FEA /* AFBufferAdapter.h in CopyFiles */,
 				E78DB187189CA8A100F91FEA /* AFButton.h in CopyFiles */,
-				E7F787DA18892B4E0055A55D /* AFStaticTableViewController.h in CopyFiles */,
-				E7F787DB18892B4E0055A55D /* AFStaticTableViewSection.h in CopyFiles */,
 				E74A5076187E92AE000C2FE4 /* AFToolKitResources.h in CopyFiles */,
 				E74A5077187E92AE000C2FE4 /* NSBundle+AFToolKitResources.h in CopyFiles */,
 				E74A5078187E92AE000C2FE4 /* UIImage+AFToolKitResources.h in CopyFiles */,
@@ -134,15 +106,6 @@
 				E74A4FE1187E3789000C2FE4 /* AFViewController.h in CopyFiles */,
 				E74A4FE2187E3789000C2FE4 /* AFSplitViewController.h in CopyFiles */,
 				E74A4FE3187E3789000C2FE4 /* AFImageViewController.h in CopyFiles */,
-				E74A4FE4187E3789000C2FE4 /* AFTableViewController.h in CopyFiles */,
-				E74A4FE5187E3789000C2FE4 /* UITableViewCell+AFUtilities.h in CopyFiles */,
-				E74A4FE6187E3789000C2FE4 /* AFTableViewCell.h in CopyFiles */,
-				E74A4FE7187E3789000C2FE4 /* AFImageCell.h in CopyFiles */,
-				E74A4FE8187E3789000C2FE4 /* AFTextFieldCell.h in CopyFiles */,
-				E74A4FE9187E3789000C2FE4 /* AFTextViewCell.h in CopyFiles */,
-				E74A4FEA187E3789000C2FE4 /* AFAdaptedTableViewDatasource.h in CopyFiles */,
-				E74A4FEB187E3789000C2FE4 /* AFAdaptedTableViewController.h in CopyFiles */,
-				E74A4FEC187E3789000C2FE4 /* AFTableRowAdapter.h in CopyFiles */,
 				E74A4FED187E3789000C2FE4 /* AFActivityIndicatorView.h in CopyFiles */,
 				E74A4FEE187E3789000C2FE4 /* AFSearchField.h in CopyFiles */,
 				E74A4FEF187E3789000C2FE4 /* AFScaledImageView.h in CopyFiles */,
@@ -207,28 +170,13 @@
 		E74A506D187E423E000C2FE4 /* AFToolKitResources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFToolKitResources.h; sourceTree = "<group>"; };
 		E74A506E187E436E000C2FE4 /* UIImage+AFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFUtilities.h"; sourceTree = "<group>"; };
 		E74A506F187E436E000C2FE4 /* UIImage+AFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AFUtilities.m"; sourceTree = "<group>"; };
-		E74BD2C0187CDE5800DA8234 /* AFAdaptedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAdaptedTableViewController.h; sourceTree = "<group>"; };
-		E74BD2C1187CDE5800DA8234 /* AFAdaptedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAdaptedTableViewController.m; sourceTree = "<group>"; };
-		E74BD2C6187CDE6C00DA8234 /* AFTableRowAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTableRowAdapter.h; sourceTree = "<group>"; };
-		E74BD2C7187CDE6C00DA8234 /* AFTableRowAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTableRowAdapter.m; sourceTree = "<group>"; };
-		E74BD2CF187D0C1100DA8234 /* AFAdaptedTableViewDatasource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAdaptedTableViewDatasource.h; sourceTree = "<group>"; };
 		E74BD2DB187D1BCE00DA8234 /* AFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFViewController.h; sourceTree = "<group>"; };
 		E74BD2DC187D1BCE00DA8234 /* AFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFViewController.m; sourceTree = "<group>"; };
-		E74BD2DE187D1BD800DA8234 /* AFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTableViewController.h; sourceTree = "<group>"; };
-		E74BD2DF187D1BD800DA8234 /* AFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTableViewController.m; sourceTree = "<group>"; };
 		E74BD2E6187D1BEB00DA8234 /* AFSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSplitViewController.h; sourceTree = "<group>"; };
 		E74BD2E7187D1BEB00DA8234 /* AFSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSplitViewController.m; sourceTree = "<group>"; };
-		E74BD2F0187D1C3500DA8234 /* UITableViewCell+AFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+AFUtilities.h"; sourceTree = "<group>"; };
-		E74BD2F1187D1C3500DA8234 /* UITableViewCell+AFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+AFUtilities.m"; sourceTree = "<group>"; };
 		E74BD307187D2CDF00DA8234 /* AFSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSingleton.h; sourceTree = "<group>"; };
 		E74BD309187D2E2700DA8234 /* AFImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageViewController.h; sourceTree = "<group>"; };
 		E74BD30A187D2E2700DA8234 /* AFImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageViewController.m; sourceTree = "<group>"; };
-		E74BD317187D301800DA8234 /* AFImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageCell.h; sourceTree = "<group>"; };
-		E74BD318187D301800DA8234 /* AFImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageCell.m; sourceTree = "<group>"; };
-		E74BD31A187D302000DA8234 /* AFTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTextFieldCell.h; sourceTree = "<group>"; };
-		E74BD31B187D302000DA8234 /* AFTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTextFieldCell.m; sourceTree = "<group>"; };
-		E74BD31D187D3F3400DA8234 /* AFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTableViewCell.h; sourceTree = "<group>"; };
-		E74BD31E187D3F3400DA8234 /* AFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTableViewCell.m; sourceTree = "<group>"; };
 		E74BD329187D43FB00DA8234 /* AFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUtilities.h; sourceTree = "<group>"; };
 		E74BD32A187D43FB00DA8234 /* AFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUtilities.m; sourceTree = "<group>"; };
 		E74BD32C187D440600DA8234 /* AFImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImagePicker.h; sourceTree = "<group>"; };
@@ -259,20 +207,24 @@
 		E74BD38D187D57A200DA8234 /* NSArray+AFNesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AFNesting.m"; sourceTree = "<group>"; };
 		E74BD38F187D589000DA8234 /* NSMutableArray+AFNesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+AFNesting.h"; sourceTree = "<group>"; };
 		E74BD390187D589000DA8234 /* NSMutableArray+AFNesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+AFNesting.m"; sourceTree = "<group>"; };
-		E74BD393187D5ADE00DA8234 /* AFTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFTextViewCell.h; sourceTree = "<group>"; };
-		E74BD394187D5ADE00DA8234 /* AFTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFTextViewCell.m; sourceTree = "<group>"; };
 		E74BD396187D64A600DA8234 /* UIViewController+AFNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AFNavigation.h"; sourceTree = "<group>"; };
 		E74BD397187D64A600DA8234 /* UIViewController+AFNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AFNavigation.m"; sourceTree = "<group>"; };
-		E78DB17F189CA32200F91FEA /* AFBufferAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBufferAdapter.h; sourceTree = "<group>"; };
-		E78DB180189CA32200F91FEA /* AFBufferAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBufferAdapter.m; sourceTree = "<group>"; };
+		E789B9BB1B45900400B0589E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E789B9BD1B45900900B0589E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E789B9BF1B45900E00B0589E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E789B9C11B45901A00B0589E /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		E789B9C31B45902600B0589E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		E789B9C51B45902C00B0589E /* libAFParseKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFParseKit.a; path = "../../Parse Kit/AFParseKit/build/Debug-iphoneos/libAFParseKit.a"; sourceTree = "<group>"; };
+		E789B9C71B45903400B0589E /* libAFTableKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFTableKit.a; path = "../../Table Kit/AFTableKit/build/Debug-iphoneos/libAFTableKit.a"; sourceTree = "<group>"; };
+		E789B9C91B45904E00B0589E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E789B9CB1B45905600B0589E /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		E789B9CD1B45905C00B0589E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E789B9CF1B45906500B0589E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E789B9D11B45906D00B0589E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E789B9D31B45907400B0589E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E789B9D51B45907B00B0589E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E78DB182189CA7BA00F91FEA /* AFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFButton.h; sourceTree = "<group>"; };
 		E78DB183189CA7BA00F91FEA /* AFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFButton.m; sourceTree = "<group>"; };
-		E78DB19C189D281D00F91FEA /* AFBasicAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBasicAdapter.h; sourceTree = "<group>"; };
-		E78DB19D189D281D00F91FEA /* AFBasicAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBasicAdapter.m; sourceTree = "<group>"; };
-		E7F787CE1888A5C00055A55D /* AFStaticTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFStaticTableViewController.h; sourceTree = "<group>"; };
-		E7F787CF1888A5C00055A55D /* AFStaticTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFStaticTableViewController.m; sourceTree = "<group>"; };
-		E7F787D11888A70B0055A55D /* AFStaticTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFStaticTableViewSection.h; sourceTree = "<group>"; };
-		E7F787D21888A70B0055A55D /* AFStaticTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFStaticTableViewSection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E711CBC7187B6B600034FA1B /* Foundation.framework in Frameworks */,
+				E789B9D61B45907B00B0589E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +283,20 @@
 		E711CBC5187B6B600034FA1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E789B9D51B45907B00B0589E /* UIKit.framework */,
+				E789B9D31B45907400B0589E /* CFNetwork.framework */,
+				E789B9D11B45906D00B0589E /* SystemConfiguration.framework */,
+				E789B9CF1B45906500B0589E /* AudioToolbox.framework */,
+				E789B9CD1B45905C00B0589E /* Security.framework */,
+				E789B9CB1B45905600B0589E /* libz.1.1.3.dylib */,
+				E789B9C91B45904E00B0589E /* QuartzCore.framework */,
+				E789B9C71B45903400B0589E /* libAFTableKit.a */,
+				E789B9C51B45902C00B0589E /* libAFParseKit.a */,
+				E789B9C31B45902600B0589E /* libsqlite3.dylib */,
+				E789B9C11B45901A00B0589E /* libstdc++.6.dylib */,
+				E789B9BF1B45900E00B0589E /* CoreGraphics.framework */,
+				E789B9BD1B45900900B0589E /* StoreKit.framework */,
+				E789B9BB1B45900400B0589E /* CoreLocation.framework */,
 				E711CBC6187B6B600034FA1B /* Foundation.framework */,
 				E711CBD4187B6B600034FA1B /* XCTest.framework */,
 				E711CBD7187B6B600034FA1B /* UIKit.framework */,
@@ -347,7 +314,6 @@
 				E74BD330187D443F00DA8234 /* Definitions */,
 				E74BD308187D2CE500DA8234 /* Miscelaneous */,
 				E74BD2F4187D1CE500DA8234 /* Basic View Controllers */,
-				E74BD2F3187D1CDC00DA8234 /* Table Views */,
 				E74BD303187D2BFB00DA8234 /* Custom Views */,
 				E74BD321187D400000DA8234 /* UIKit Categories */,
 				E74BD302187D212500DA8234 /* Foundation Categories */,
@@ -380,17 +346,6 @@
 				E711CBDF187B6B600034FA1B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E721355A18BE309700A89F49 /* Static Table Views */ = {
-			isa = PBXGroup;
-			children = (
-				E7F787CE1888A5C00055A55D /* AFStaticTableViewController.h */,
-				E7F787CF1888A5C00055A55D /* AFStaticTableViewController.m */,
-				E7F787D11888A70B0055A55D /* AFStaticTableViewSection.h */,
-				E7F787D21888A70B0055A55D /* AFStaticTableViewSection.m */,
-			);
-			name = "Static Table Views";
 			sourceTree = "<group>";
 		};
 		E74A4F64187E2690000C2FE4 /* Other Frameworks */ = {
@@ -432,33 +387,6 @@
 				E74A5068187E3FAA000C2FE4 /* UIImage+AFToolKitResources.m */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		E74BD2D1187D1AB300DA8234 /* Adapted Table Views */ = {
-			isa = PBXGroup;
-			children = (
-				E74BD2CF187D0C1100DA8234 /* AFAdaptedTableViewDatasource.h */,
-				E74BD2C0187CDE5800DA8234 /* AFAdaptedTableViewController.h */,
-				E74BD2C1187CDE5800DA8234 /* AFAdaptedTableViewController.m */,
-				E74BD2C6187CDE6C00DA8234 /* AFTableRowAdapter.h */,
-				E74BD2C7187CDE6C00DA8234 /* AFTableRowAdapter.m */,
-				E78DB17E189CA30B00F91FEA /* Table Row Adapters */,
-				E721355A18BE309700A89F49 /* Static Table Views */,
-			);
-			name = "Adapted Table Views";
-			sourceTree = "<group>";
-		};
-		E74BD2F3187D1CDC00DA8234 /* Table Views */ = {
-			isa = PBXGroup;
-			children = (
-				E74BD2DE187D1BD800DA8234 /* AFTableViewController.h */,
-				E74BD2DF187D1BD800DA8234 /* AFTableViewController.m */,
-				E74BD2F0187D1C3500DA8234 /* UITableViewCell+AFUtilities.h */,
-				E74BD2F1187D1C3500DA8234 /* UITableViewCell+AFUtilities.m */,
-				E74BD320187D3F3C00DA8234 /* Table View Cells */,
-				E74BD2D1187D1AB300DA8234 /* Adapted Table Views */,
-			);
-			name = "Table Views";
 			sourceTree = "<group>";
 		};
 		E74BD2F4187D1CE500DA8234 /* Basic View Controllers */ = {
@@ -522,21 +450,6 @@
 			name = Miscelaneous;
 			sourceTree = "<group>";
 		};
-		E74BD320187D3F3C00DA8234 /* Table View Cells */ = {
-			isa = PBXGroup;
-			children = (
-				E74BD31D187D3F3400DA8234 /* AFTableViewCell.h */,
-				E74BD31E187D3F3400DA8234 /* AFTableViewCell.m */,
-				E74BD317187D301800DA8234 /* AFImageCell.h */,
-				E74BD318187D301800DA8234 /* AFImageCell.m */,
-				E74BD31A187D302000DA8234 /* AFTextFieldCell.h */,
-				E74BD31B187D302000DA8234 /* AFTextFieldCell.m */,
-				E74BD393187D5ADE00DA8234 /* AFTextViewCell.h */,
-				E74BD394187D5ADE00DA8234 /* AFTextViewCell.m */,
-			);
-			name = "Table View Cells";
-			sourceTree = "<group>";
-		};
 		E74BD321187D400000DA8234 /* UIKit Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -577,17 +490,6 @@
 				E74A4F5A187E1D96000C2FE4 /* AFActivityToast.m */,
 			);
 			name = Toasts;
-			sourceTree = "<group>";
-		};
-		E78DB17E189CA30B00F91FEA /* Table Row Adapters */ = {
-			isa = PBXGroup;
-			children = (
-				E78DB17F189CA32200F91FEA /* AFBufferAdapter.h */,
-				E78DB180189CA32200F91FEA /* AFBufferAdapter.m */,
-				E78DB19C189D281D00F91FEA /* AFBasicAdapter.h */,
-				E78DB19D189D281D00F91FEA /* AFBasicAdapter.m */,
-			);
-			name = "Table Row Adapters";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -700,42 +602,30 @@
 			files = (
 				E74BD37C187D556600DA8234 /* UIViewController+AFActionSheet.m in Sources */,
 				E74BD37F187D55C100DA8234 /* UIViewController+AFAlertView.m in Sources */,
-				E74BD2E0187D1BD800DA8234 /* AFTableViewController.m in Sources */,
 				E74BD36B187D528D00DA8234 /* AFScaledImageView.m in Sources */,
 				E74BD375187D545D00DA8234 /* UIImage+AFSizing.m in Sources */,
 				E74BD35C187D46D100DA8234 /* AFActivityIndicatorView.m in Sources */,
 				E746ECAA18E40A090098F382 /* AFOvalButton.m in Sources */,
-				E7F787D31888A70B0055A55D /* AFStaticTableViewSection.m in Sources */,
 				E74BD38E187D57A200DA8234 /* NSArray+AFNesting.m in Sources */,
 				E74BD32E187D440600DA8234 /* AFImagePicker.m in Sources */,
-				E74BD2C4187CDE5800DA8234 /* AFAdaptedTableViewController.m in Sources */,
-				E74BD31C187D302000DA8234 /* AFTextFieldCell.m in Sources */,
 				E74A5069187E3FAA000C2FE4 /* UIImage+AFToolKitResources.m in Sources */,
 				E74A4F5B187E1D96000C2FE4 /* AFActivityToast.m in Sources */,
 				E746ECA318E3F1060098F382 /* AFStatedButton.m in Sources */,
 				E78DB184189CA7BA00F91FEA /* AFButton.m in Sources */,
 				E74A4FDB187E3690000C2FE4 /* NSObject+AFBlock.m in Sources */,
-				E78DB19E189D281D00F91FEA /* AFBasicAdapter.m in Sources */,
 				E74BD30B187D2E2700DA8234 /* AFImageViewController.m in Sources */,
 				E74BD378187D54A800DA8234 /* UIView+AFDrawing.m in Sources */,
 				E74A4F58187E1D8D000C2FE4 /* AFToast.m in Sources */,
-				E74BD31F187D3F3400DA8234 /* AFTableViewCell.m in Sources */,
-				E74BD2F2187D1C3500DA8234 /* UITableViewCell+AFUtilities.m in Sources */,
 				E74BD382187D55FD00DA8234 /* UIViewController+AFUtilities.m in Sources */,
 				E74BD2EB187D1BEB00DA8234 /* AFSplitViewController.m in Sources */,
-				E74BD395187D5ADE00DA8234 /* AFTextViewCell.m in Sources */,
 				E74BD36E187D52A000DA8234 /* AFTextView.m in Sources */,
 				E74BD368187D510300DA8234 /* AFSearchField.m in Sources */,
 				E74BD2DD187D1BCE00DA8234 /* AFViewController.m in Sources */,
-				E7F787D01888A5C00055A55D /* AFStaticTableViewController.m in Sources */,
 				E74A506C187E3FB7000C2FE4 /* NSBundle+AFToolKitResources.m in Sources */,
-				E74BD319187D301800DA8234 /* AFImageCell.m in Sources */,
 				E74BD388187D565A00DA8234 /* NSArray+AFUtilities.m in Sources */,
 				E74BD32B187D43FB00DA8234 /* AFUtilities.m in Sources */,
-				E74BD2CA187CDE6C00DA8234 /* AFTableRowAdapter.m in Sources */,
 				E74BD391187D589000DA8234 /* NSMutableArray+AFNesting.m in Sources */,
 				E74BD398187D64A600DA8234 /* UIViewController+AFNavigation.m in Sources */,
-				E78DB181189CA32200F91FEA /* AFBufferAdapter.m in Sources */,
 				E74A5070187E436E000C2FE4 /* UIImage+AFUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -859,6 +749,13 @@
 				DSTROOT = /tmp/AFToolKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFToolKit/AFToolKit-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ashkonfarhangi/Documents/Projects/Code/iOS/Libraries/Parse,
+					"Kit/AFParseKit/build/Debug-iphoneos",
+					/Users/ashkonfarhangi/Documents/Projects/Code/iOS/Libraries/Table,
+					"Kit/AFTableKit/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -871,6 +768,13 @@
 				DSTROOT = /tmp/AFToolKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFToolKit/AFToolKit-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ashkonfarhangi/Documents/Projects/Code/iOS/Libraries/Parse,
+					"Kit/AFParseKit/build/Debug-iphoneos",
+					/Users/ashkonfarhangi/Documents/Projects/Code/iOS/Libraries/Table,
+					"Kit/AFTableKit/build/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

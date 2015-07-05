@@ -20,19 +20,6 @@
 #import "AFSplitViewController.h"
 #import "AFImageViewController.h"
 
-// Table Views
-#import "AFTableViewController.h"
-#import "UITableViewCell+AFUtilities.h"
-#import "AFTableViewCell.h"
-#import "AFImageCell.h"
-#import "AFTextFieldCell.h"
-#import "AFTextViewCell.h"
-#import "AFAdaptedTableViewDatasource.h"
-#import "AFAdaptedTableViewController.h"
-#import "AFStaticTableViewController.h"
-#import "AFTableRowAdapter.h"
-#import "AFBufferAdapter.h"
-
 // Custom Views
 #import "AFActivityIndicatorView.h"
 #import "AFSearchField.h"
